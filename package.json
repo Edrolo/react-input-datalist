@@ -1,6 +1,6 @@
 {
   "name": "react-input-datalist",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "HTML5 input/datalist combination component",
   "main": "react-input-datalist.js",
   "author": {
@@ -14,11 +14,15 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "react": "^15.1.0"
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.3"
   },
   "devDependencies": {
     "http-server": "^0.7.4",
-    "react-dom": "^15.1.0",
+    "prop-types": "^15.7.2",
     "watchify": "^2.2.1"
   },
   "keywords": [

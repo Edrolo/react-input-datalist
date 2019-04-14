@@ -1,20 +1,22 @@
 var React = require('react');
-var D = React.DOM;
+var D = require('react-dom');
+var PropTypes = require('prop-types');
+var createClass = require('create-react-class');
 
 var DEFAULT_HIGHLIGHTED_INDEX = -1;
 var NO_RESULTS = [];
 
-module.exports = React.createClass({
+module.exports = createClass({
     propTypes: {
-        onChange: React.PropTypes.func.isRequired,
-        value: React.PropTypes.string.isRequired,
-        datalist: React.PropTypes.array,
-        onEnter: React.PropTypes.func,
-        className: React.PropTypes.string,
-        inputClassName: React.PropTypes.string,
-        minLength: React.PropTypes.number,
-        maxOptions: React.PropTypes.number,
-        predicate: React.PropTypes.func
+        onChange: PropTypes.func.isRequired,
+        value: PropTypes.string.isRequired,
+        datalist: PropTypes.array,
+        onEnter: PropTypes.func,
+        className: PropTypes.string,
+        inputClassName: PropTypes.string,
+        minLength: PropTypes.number,
+        maxOptions: PropTypes.number,
+        predicate: PropTypes.func
     },
     getInitialState: getInitialState,
     getDefaultProps: function() {
