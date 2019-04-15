@@ -18,11 +18,11 @@
     "react-dom": "^15.1.0 || ^16.0.0"
   },
   "dependencies": {
-    "create-react-class": "^15.6.3"
+    "create-react-class": "^15.6.3",
+    "prop-types": "^15.7.2"
   },
   "devDependencies": {
     "http-server": "^0.7.4",
-    "prop-types": "^15.7.2",
     "watchify": "^2.2.1"
   },
   "keywords": [
