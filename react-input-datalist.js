@@ -1,5 +1,5 @@
 var React = require('react');
-var D = require('react-dom');
+var D = require('react-dom-factories');
 var PropTypes = require('prop-types');
 var createClass = require('create-react-class');
 
